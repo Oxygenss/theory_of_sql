@@ -9,3 +9,5 @@
 SELECT CONCAT(first_name, ' (last_name:', last_name, ',age:', age, ')') AS person_information 
 FROM person;
 ```
+
+## Coalesce
