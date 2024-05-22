@@ -11,3 +11,9 @@ FROM person;
 ```
 
 ## Coalesce
+
+
+## CAST
+CAST (price - price * 0.1 AS INTEGER) AS discount_price
+
+(m.price - m.price * 0.1) :: int AS discount_price
